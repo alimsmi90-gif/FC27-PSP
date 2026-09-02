@@ -1,0 +1,11 @@
+ساخت APK با GitHub Actions
+
+1) کل این پروژه را در یک repository در GitHub آپلود کنید.
+2) وارد repository شوید و به تب Actions بروید.
+3) Workflow با نام "Build FC27 APK" را انتخاب کنید.
+4) روی Run workflow بزنید.
+5) صبر کنید تا Build تمام شود.
+6) در صفحه اجرای موفق، بخش Artifacts را باز کنید و FC27-APK را دریافت کنید.
+
+نکته:
+این روش روی کامپیوتر شما به WSL/Ubuntu/Android SDK/NDK نیاز ندارد؛ Build روی runner لینوکس GitHub انجام می‌شود.
